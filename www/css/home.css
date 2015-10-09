@@ -1,0 +1,10 @@
+/*home.html styles*/
+
+img.open-icon{
+	width: 25px;
+	height: 25px;
+}
+
+span.open-span{
+	float: right !important;
+}

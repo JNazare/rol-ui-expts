@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="css/ionic.material-design-lite.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-positive">
+        <h1 class="title">Read Out Loud</h1>
+        <a href="" class="button button-icon ion-android-person"></a>
+      </ion-header-bar>
+      <ion-content>
+
+      <div class="list card">
+        <div class="item item-avatar" item-icon-right>
+          <img src="https://corduroysbutton.files.wordpress.com/2011/11/cord1.jpg">
+          <span class="open-span">
+              <img class="open-icon" src="img/open.png"> 
+          </span>
+          <h2>
+            Corduroy 
+          </h2>
+          <p class="subdued">Don Freeman </p>
+        </div>
+      </div>
+
+      <div class="list card">
+        <div class="item item-avatar" item-icon-right>
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Goodnightmoon.jpg">
+          <span class="open-span">
+              <img class="open-icon" src="img/open.png"> 
+          </span>
+          <h2>
+            Goodnight Moon 
+          </h2>
+          <p class="subdued">Margaret Wise Brown</p>
+        </div>
+      </div>
+
+      </ion-content>
+    </ion-pane>
+    <script src="js/ionic.material-design-lite.bundle.min.js"></script>
+  </body>
+</html>

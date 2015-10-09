@@ -1,0 +1,39 @@
+/*Global styles*/
+
+ion-pane {
+	background-color: #3f51b5 !important;
+}
+
+p, h1, h2, h3, h4, h5{
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;	
+}
+
+h1{
+	font-weight: bold !important;
+}
+
+h2{
+	font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+p.subdued{
+	font-weight: 300 !important;
+	color: #444;
+}
+
+ion-content { 
+	background-color: #F0F3F8;
+}
+
+.item-avatar > img{
+	border-radius: 0px !important;
+}
+
+.card {
+	border-top: 4px solid #b2b2b2;
+}
+
+.button.button-icon {
+    min-height: 0px !important;
+}

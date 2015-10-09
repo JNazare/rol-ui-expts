@@ -1,0 +1,23 @@
+/*read.html styles*/
+
+p.pagetext{
+	margin-left: 55px !important;
+}
+
+h1.translation{
+	font-weight: bold !important;
+}
+
+h2.pagenum{
+	float: right;
+	font-weight: 300 !important;
+	padding-bottom: 10px;
+}
+
+.bar.bar-positive.bar-footer{
+	background-image: none;
+}
+
+ion-footer-bar.translation-bar{
+	border-top: 1px solid #32408f !important;
+}
